@@ -15,13 +15,13 @@ source configuration.sh
 ./scripts/set-up-globals.sh
 
 # Identify framework.
-./scripts/set-framework.sh
+#./scripts/set-framework.sh
 
 # Run auto-updates.
-./scripts/auto-update.sh
+#./scripts/auto-update.sh
 source ${BASH_ENV}
 
-if [[ "${UPDATES_APPLIED}" = true ]]
-then
+#if [[ "${UPDATES_APPLIED}" = true ]]
+#then
     ./scripts/visual-testing-diffy.sh
-fi
+#fi
